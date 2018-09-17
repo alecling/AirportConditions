@@ -51,21 +51,21 @@ class AirportDetailViewController: UIViewController {
         
         
         
-        
-        // WRITE INFORMATION ABOUT THE ACTIVE AIRPORT TO THE SCREEN
-        lblAirportCode.text = activeAirport.airportCode
-        lblAirportName.text = activeAirport.airportName
-        lblWeatherConditions.text = activeAirport.weatherConditions
-        lblTemperature.text = "\(activeAirport.temperature!)"
-        lblCity.text = activeAirport.city
-        lblState.text = activeAirport.state
-        lblCountry.text = activeAirport.country
-        lblLatitude.text = "\(activeAirport.latitude!)"
-        lblLongitude.text = "\(activeAirport.longitude!)"
-        lblWindSpeed.text = "\(activeAirport.windSpeed!)"
-        lblWindGusts.text = "\(activeAirport.windGusts!)"
-        
-    }
+//
+//        // WRITE INFORMATION ABOUT THE ACTIVE AIRPORT TO THE SCREEN
+//        lblAirportCode.text = activeAirport.airportCode
+//        lblAirportName.text = activeAirport.airportName
+//        lblWeatherConditions.text = activeAirport.weatherConditions
+//        lblTemperature.text = "\(activeAirport.temperature!)"
+//        lblCity.text = activeAirport.city
+//        lblState.text = activeAirport.state
+//        lblCountry.text = activeAirport.country
+//        lblLatitude.text = "\(activeAirport.latitude!)"
+//        lblLongitude.text = "\(activeAirport.longitude!)"
+//        lblWindSpeed.text = "\(activeAirport.windSpeed!)"
+//        lblWindGusts.text = "\(activeAirport.windGusts!)"
+//
+  }
     
     override func viewDidLoad() {
         super.viewDidLoad()
